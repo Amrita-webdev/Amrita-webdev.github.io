@@ -1,0 +1,123 @@
+body{
+    background-image: linear-gradient(to bottom, rgb(125, 215, 240), rgb(201, 125, 240)) ;
+}
+.row{
+    margin: 4rem;
+    padding: 8rem;
+    width: 70%;
+    height: 20%;
+    background-color: white;
+    border-radius: 1rem;
+}
+.signup-heading{
+    text-align: center;
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 45px;
+}
+.image{
+    
+    margin-top: 50px;
+    margin-left: 47px;
+    margin-bottom: 36px;
+    
+}
+.signup-img{
+    border-radius: 1rem;
+    width: 39rem;
+    height: 40rem;
+}
+.form-box{
+    outline: none;
+    width: 90%;
+    margin-top: 0.5rem;
+    height: 2rem;
+    border-radius: 6.99346px;
+    background: rgba(228, 241, 255, 0.78);
+    border-color: rgba(228, 241, 255, 0.78);
+}
+.box-text{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 17.4837px;
+line-height: 26px;
+}
+.signup-form{
+    padding-left: 3rem;
+    display: grid;
+    border: white;
+}
+.clearfix{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signupbtn{
+    width: 10rem;
+    height: 3rem;
+    background: #0075FF;
+    border: none;
+    border-radius: 6.99346px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+
+color: #FFFFFF;
+}
+span{
+    text-align: center;
+}
+.connect-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.bottom-text{
+    font-family: Poppins;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+}
+.login{
+    font-style: normal;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #optional{
+        display: none;
+     }
+     .column1{
+         display: none;
+     }
+     .column2{
+         height: 50rem;
+
+     }
+}
+@media only screen and (max-width: 600px){
+.login-column{
+    background-color: white;
+    width: 70%;
+    height: 90%;
+}
+}
+.password-login{
+    display: flex;
+}
+
